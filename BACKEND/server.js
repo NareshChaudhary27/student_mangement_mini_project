@@ -24,7 +24,7 @@ mongoose
 // Logger
 const logger = winston.createLogger({
     level: 'info',
-    formar: winston.format.combine(
+    format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.json()
     ),
