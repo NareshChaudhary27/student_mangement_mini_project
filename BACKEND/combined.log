@@ -1,0 +1,10 @@
+{"level":"info","message":{"duration":"5ms","method":"GET","path":"/health","query":{},"status":500},"timestamp":"2025-02-25T16:18:14.023Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","path":"/health","query":{},"status":500},"timestamp":"2025-02-25T16:24:29.851Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","path":"/health","query":{},"status":500},"timestamp":"2025-02-25T16:25:12.623Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","path":"/","query":{},"status":404},"timestamp":"2025-02-25T16:27:03.724Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","path":"/health","query":{},"status":500},"timestamp":"2025-02-25T16:27:20.859Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","params":{},"path":"/health/detailed","query":{},"status":200},"timestamp":"2025-02-25T16:27:29.892Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/favicon.ico","query":{},"status":404},"timestamp":"2025-02-25T16:27:29.919Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/health","query":{},"status":500},"timestamp":"2025-02-25T16:29:40.721Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/health","query":{},"status":500},"timestamp":"2025-02-25T16:30:16.113Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/health","query":{},"status":200},"timestamp":"2025-02-25T16:30:33.912Z"}
