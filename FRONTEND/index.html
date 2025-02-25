@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Mangement Dashboard</title>
+        <link 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel = "stylesheet"
+    />
+</head>
+<body>
+    <div class="container">
+
+        <!--Sidebar-->
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                EduManager
+            </div>
+
+            <div class="nav-item active" data-section="dashboard">
+                <i class="fas fa-chart-pie"></i>
+                Dashboard
+            </div>
+
+            <div class="nav-item" data-section="Students">
+                <i class="fas fa-users"></i>
+                Students
+            </div>
+
+            <div class="nav-item" data-section="courses">
+                <i class="fas fa-book"></i>
+                courses
+            </div>
+
+            <div class="nav-item" data-section="reports">
+                <i class="fas fa-chart-bar"></i>
+                Reports
+            </div>
+
+            <div class="nav-item" data-section="settings">
+                <i class="fas fa-cog"></i>
+                Settings
+            </div>
+
+            <!--Main Content-->
+
+            <div class="main-content">
+                <!--Header-->
+                <div class="header">
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search students..." />
+                    </div>
+                    <div class="user-profile">
+                        <div class="user-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <span>Admin</span>
+                    </div>
+                </div>
+
+                <!--Dashboard Section-->
+                <div id="dashboardSection" class="section dashboard active">
+                    <div class="dashboard-cards">
+                        <div class="cards">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                            </div>
+                            <div class="card-title">Total Students</div>
+                            <div class="card value">0</div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                            </div>
+                            <div class="card-title">Active Courses</div>
+                            <div class="card-value">0</div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                            <div class="card-title">Graduates</div>
+                            <div class="card-value">0</div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="class-title">Success Rate</div>
+                                <div class="card-value">0%</div>
+                            </div>
+                        </div>
+
+                        <!--Student List in Dashboard-->
+                        <div class="student-list">
+                            <div class="table-header">
+                                <h2>Recent Students</h2>
+                                <button class="add-student-btn" onclick="openModal()">
+                                    <i class="fas fa-plus"></i>
+                                    Add Student
+                                </button>
+                            </div>
+                            <table>
+                                <thread>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Course</th>
+                                        <th>Enrollment Date</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thread>
+                                <tbody id="studentTableBody">
+                                    <!--Will be populated dynamically-->
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!--Students Section-->
+                        <div id="studentsSection" class="section">
+                            <div class="student-list">
+                                <div class="table-header">
+                                    <h2>All Students</h2>
+                                    <button class="add-student-btn" onClick="openModal()">
+                                        <i class="fas fa-plus"></i>
+                                        Add Student
+                                    </button>
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Course</th>
+                                            <th>Enrollment Date</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="allStudentsTableBody">
+                                        <!--Will be populated dynamically-->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!--Course Section-->
+                        <div id="coursesSection" class="section">
+                            <div class="course-list">
+                                <div class="table-header">
+                                    <h2>Course Mangement</h2>
+                                    <button class="add-student-btn" onclick="openCourseModal()">
+                                        <i class="fas fa-plus"></i>
+                                        Add Course
+                                    </button>
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Description</th>
+                                            <th>Duration (months)</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="courseTableBody">
+                                        <!--Will be populated dynamically-->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!--Reports Section-->
+                        <div id="reportsSection" class="section">
+                            <h2>Reports Coming Soon</h2>
+                        </div>
+
+                        <!--Settings Section-->
+                        <div id="settingsSection" class="section">
+                            <h2>Settings Coming Soon</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Add Student Modal-->
+                
+
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
+
