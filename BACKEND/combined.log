@@ -10,3 +10,299 @@
 {"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/health","query":{},"status":200},"timestamp":"2025-02-25T16:30:33.912Z"}
 {"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/health","query":{},"status":200},"timestamp":"2025-02-25T17:55:42.242Z"}
 {"level":"info","message":{"duration":"2ms","method":"GET","params":{},"path":"/health/detailed","query":{},"status":200},"timestamp":"2025-02-25T17:55:52.605Z"}
+{"level":"info","message":{"duration":"7ms","method":"GET","params":{},"path":"/health","query":{},"status":200},"timestamp":"2025-02-26T06:59:56.302Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","path":"/favicon.ico","query":{},"status":404},"timestamp":"2025-02-26T06:59:56.369Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","params":{},"path":"/health/detailed","query":{},"status":200},"timestamp":"2025-02-26T07:00:20.146Z"}
+{"courseID":"67bf1230815786b4ff50d9db","level":"info","message":"New Course created successfully","name":"CSE","timestamp":"2025-02-26T13:08:00.399Z"}
+{"level":"info","message":{"body":{"description":"Valo kehlo baas","duration":12,"name":"CSE","status":"active"},"duration":"28ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":201},"timestamp":"2025-02-26T13:08:00.407Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:08:00.417Z"}
+{"level":"info","message":"Dashboard stats fetched successfully","timestamp":"2025-02-26T13:08:00.499Z"}
+{"level":"info","message":{"duration":"75ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:08:00.500Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:08:09.013Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:08:09.019Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: student-mangement.courses index: name_1 dup key: { name: \"CSE\" }","index":0,"keyPattern":{"name":1},"keyValue":{"name":"CSE"}},"index":0,"keyPattern":{"name":1},"keyValue":{"name":"CSE"},"level":"error","message":"Error creating course:  E11000 duplicate key error collection: student-mangement.courses index: name_1 dup key: { name: \"CSE\" }","stack":"MongoServerError: E11000 duplicate key error collection: student-mangement.courses index: name_1 dup key: { name: \"CSE\" }\n    at InsertOneOperation.execute (C:\\Users\\nares\\desktop\\Student_Management_Mini_Project\\backend\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\nares\\desktop\\Student_Management_Mini_Project\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\nares\\desktop\\Student_Management_Mini_Project\\backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\nares\\desktop\\Student_Management_Mini_Project\\backend\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-02-26T13:08:27.135Z"}
+{"level":"info","message":{"body":{"description":"Valo kehlo","duration":4,"name":"CSE","status":"active"},"duration":"42ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":400},"timestamp":"2025-02-26T13:08:27.138Z"}
+{"courseID":"67bf1278815786b4ff50d9e5","level":"info","message":"New Course created successfully","name":"CSE","timestamp":"2025-02-26T13:09:12.888Z"}
+{"level":"info","message":{"body":{"description":"Valo kehlo","duration":4,"name":"CSE","status":"active"},"duration":"5ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":201},"timestamp":"2025-02-26T13:09:12.889Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:12.893Z"}
+{"level":"info","message":"Dashboard stats fetched successfully","timestamp":"2025-02-26T13:09:12.912Z"}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:09:12.913Z"}
+{"level":"info","message":{"duration":"2ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:37.022Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:37.030Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:43.699Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:43.704Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:44.053Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:44.059Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:44.213Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:09:44.220Z"}
+{"courseID":"67bf12b9815786b4ff50d9ed","level":"info","message":"New Course created successfully","name":"CSE","timestamp":"2025-02-26T13:10:17.040Z"}
+{"level":"info","message":{"body":{"description":"Valo Kehlo Baas","duration":4,"name":"CSE","status":"active"},"duration":"5ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":201},"timestamp":"2025-02-26T13:10:17.042Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:10:17.047Z"}
+{"level":"info","message":"Dashboard stats fetched successfully","timestamp":"2025-02-26T13:10:17.064Z"}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:10:17.067Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/students","query":{},"status":404},"timestamp":"2025-02-26T13:10:21.052Z"}
+{"level":"info","message":"Dashboard stats fetched successfully","timestamp":"2025-02-26T13:10:21.067Z"}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:10:21.068Z"}
+{"level":"info","message":{"duration":"0ms","method":"GET","path":"/api/students","query":{},"status":404},"timestamp":"2025-02-26T13:10:22.697Z"}
+{"level":"info","message":"Dashboard stats fetched successfully","timestamp":"2025-02-26T13:10:22.710Z"}
+{"level":"info","message":{"duration":"14ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:10:22.712Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:10:54.995Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/api/courses","query":{},"status":404},"timestamp":"2025-02-26T13:10:55.001Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:10:56.332Z"}
+{"level":"info","message":{"duration":"62ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-02-26T13:10:56.346Z"}
+{"activeCourses":1,"activeStudents":0,"courseCounts":[],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:10:56.398Z","totalCourses":1,"totalStudents":0}
+{"level":"info","message":{"duration":"37ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:10:56.400Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2025-02-26T13:10:56.403Z"}
+{"level":"info","message":{"duration":"46ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-02-26T13:10:56.405Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:11:06.843Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:11:06.845Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:11:21.222Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:11:21.224Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2025-02-26T13:11:21.236Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:11:21.238Z"}
+{"activeCourses":1,"activeStudents":0,"courseCounts":[],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:11:21.254Z","totalCourses":1,"totalStudents":0}
+{"level":"info","message":{"duration":"23ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:11:21.256Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2025-02-26T13:11:54.060Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:11:54.062Z"}
+{"activeCourses":1,"activeStudents":0,"courseCounts":[],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:11:54.074Z","totalCourses":1,"totalStudents":0}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:11:54.076Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:11:55.291Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:11:55.293Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:11:56.839Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:11:56.841Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2025-02-26T13:12:00.696Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:12:00.698Z"}
+{"activeCourses":1,"activeStudents":0,"courseCounts":[],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:12:00.708Z","totalCourses":1,"totalStudents":0}
+{"level":"info","message":{"duration":"19ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:12:00.710Z"}
+{"course":"67bf12b9815786b4ff50d9ed","level":"info","message":"New student created:","name":"Naresh Kuamr","studentId":"67bf13375a2663330e3de9f5","timestamp":"2025-02-26T13:12:23.819Z"}
+{"level":"info","message":{"body":{"course":"67bf12b9815786b4ff50d9ed","email":"chaudharynaresh2705@gmail.com","enrollmentDate":"2025-02-10","name":"Naresh Kuamr","status":"active"},"duration":"18ms","method":"POST","params":{},"path":"/api/students","query":{},"status":201},"timestamp":"2025-02-26T13:12:23.821Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:12:23.830Z"}
+{"level":"info","message":{"duration":"7ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-02-26T13:12:23.832Z"}
+{"activeCourses":1,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:12:23.853Z","totalCourses":1,"totalStudents":1}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:12:23.855Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:12:27.685Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:12:27.687Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:12:28.691Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:12:28.693Z"}
+{"activeCourses":1,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:12:28.706Z","totalCourses":1,"totalStudents":1}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:12:28.707Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-02-26T13:12:29.003Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:12:29.005Z"}
+{"courseId":"67bf134f5a2663330e3dea07","level":"info","message":"New course created:","name":"ECE","timestamp":"2025-02-26T13:12:47.961Z"}
+{"level":"info","message":{"body":{"description":"Wire jodo baas","duration":6,"name":"ECE","status":"active"},"duration":"6ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":201},"timestamp":"2025-02-26T13:12:47.962Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:12:47.970Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-02-26T13:12:47.972Z"}
+{"activeCourses":2,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:12:47.991Z","totalCourses":2,"totalStudents":1}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:12:47.993Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:12:52.245Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:12:52.247Z"}
+{"activeCourses":2,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:12:52.259Z","totalCourses":2,"totalStudents":1}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:12:52.261Z"}
+{"course":"67bf134f5a2663330e3dea07","level":"info","message":"New student created:","name":"Ayush","studentId":"67bf136a5a2663330e3dea17","timestamp":"2025-02-26T13:13:14.551Z"}
+{"level":"info","message":{"body":{"course":"67bf134f5a2663330e3dea07","email":"ayush@gmail.com","enrollmentDate":"2025-02-10","name":"Ayush","status":"active"},"duration":"6ms","method":"POST","params":{},"path":"/api/students","query":{},"status":201},"timestamp":"2025-02-26T13:13:14.553Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:13:14.560Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-02-26T13:13:14.562Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf134f5a2663330e3dea07","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:14.583Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"16ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:13:14.585Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:13:16.207Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:13:16.209Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:13:16.742Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:13:16.744Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf134f5a2663330e3dea07","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:16.757Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:13:16.758Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:13:25.324Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:13:25.326Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf134f5a2663330e3dea07","count":1},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:25.337Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:13:25.339Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{"id":"67bf136a5a2663330e3dea17"},"path":"/api/students/67bf136a5a2663330e3dea17","query":{},"status":200},"timestamp":"2025-02-26T13:13:27.621Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:13:33.949Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:13:33.951Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf134f5a2663330e3dea07","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:33.964Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:13:33.965Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{"id":"67bf13375a2663330e3de9f5"},"path":"/api/students/67bf13375a2663330e3de9f5","query":{},"status":200},"timestamp":"2025-02-26T13:13:36.806Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:13:40.153Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:13:40.155Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","params":{"id":"67bf12b9815786b4ff50d9ed"},"path":"/api/courses/67bf12b9815786b4ff50d9ed","query":{},"status":200},"timestamp":"2025-02-26T13:13:41.526Z"}
+{"courseId":"67bf12b9815786b4ff50d9ed","level":"info","message":"Course updated successfully:","name":"CSE","timestamp":"2025-02-26T13:13:45.013Z"}
+{"level":"info","message":{"body":{"description":"Valo Kehlo Baas","duration":4,"name":"CSE","status":"inactive"},"duration":"37ms","method":"PUT","params":{"id":"67bf12b9815786b4ff50d9ed"},"path":"/api/courses/67bf12b9815786b4ff50d9ed","query":{},"status":200},"timestamp":"2025-02-26T13:13:45.015Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:13:45.024Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-02-26T13:13:45.026Z"}
+{"activeCourses":1,"activeStudents":2,"courseCounts":[{"_id":"67bf134f5a2663330e3dea07","count":1},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:45.045Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:13:45.047Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:13:46.279Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:13:46.280Z"}
+{"activeCourses":1,"activeStudents":2,"courseCounts":[{"_id":"67bf134f5a2663330e3dea07","count":1},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:46.294Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"20ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:13:46.296Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:13:48.359Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:13:48.361Z"}
+{"activeCourses":1,"activeStudents":2,"courseCounts":[{"_id":"67bf134f5a2663330e3dea07","count":1},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:48.373Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:13:48.374Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:13:51.267Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:13:51.269Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{"id":"67bf12b9815786b4ff50d9ed"},"path":"/api/courses/67bf12b9815786b4ff50d9ed","query":{},"status":200},"timestamp":"2025-02-26T13:13:52.454Z"}
+{"courseId":"67bf12b9815786b4ff50d9ed","level":"info","message":"Course updated successfully:","name":"CSE","timestamp":"2025-02-26T13:13:54.738Z"}
+{"level":"info","message":{"body":{"description":"Valo Kehlo Baas","duration":4,"name":"CSE","status":"active"},"duration":"5ms","method":"PUT","params":{"id":"67bf12b9815786b4ff50d9ed"},"path":"/api/courses/67bf12b9815786b4ff50d9ed","query":{},"status":200},"timestamp":"2025-02-26T13:13:54.739Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:13:54.746Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-02-26T13:13:54.748Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf134f5a2663330e3dea07","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:13:54.764Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"14ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:13:54.767Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:14:04.078Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:04.079Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf134f5a2663330e3dea07","count":1},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:04.090Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:14:04.092Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:14:07.546Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:14:07.547Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:14:14.390Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:14.391Z"}
+{"activeCourses":2,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf134f5a2663330e3dea07","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:14.403Z","totalCourses":2,"totalStudents":2}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:14:14.405Z"}
+{"course":"67bf134f5a2663330e3dea07","level":"info","message":"Student deleted successfully:","name":"Ayush","studentId":"67bf136a5a2663330e3dea17","timestamp":"2025-02-26T13:14:16.977Z"}
+{"level":"info","message":{"body":{},"duration":"5ms","method":"DELETE","params":{"id":"67bf136a5a2663330e3dea17"},"path":"/api/students/67bf136a5a2663330e3dea17","query":{},"status":200},"timestamp":"2025-02-26T13:14:16.979Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:16.984Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-02-26T13:14:16.986Z"}
+{"activeCourses":2,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:17.002Z","totalCourses":2,"totalStudents":1}
+{"level":"info","message":{"duration":"14ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:14:17.004Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:18.488Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:18.490Z"}
+{"activeCourses":2,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:18.501Z","totalCourses":2,"totalStudents":1}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:14:18.502Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:14:19.711Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:14:19.713Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:19.730Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:19.732Z"}
+{"activeCourses":2,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:19.744Z","totalCourses":2,"totalStudents":1}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:14:19.746Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:20.894Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:20.896Z"}
+{"activeCourses":2,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:20.909Z","totalCourses":2,"totalStudents":1}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:14:20.911Z"}
+{"level":"info","message":"Retrieved 2 courses successfully","timestamp":"2025-02-26T13:14:22.741Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:14:22.742Z"}
+{"courseId":"67bf13c85a2663330e3dea88","level":"info","message":"New course created:","name":"Valo mei wiff kaise kare","timestamp":"2025-02-26T13:14:48.315Z"}
+{"level":"info","message":{"body":{"description":"Lol","duration":2,"name":"Valo mei wiff kaise kare","status":"active"},"duration":"4ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":201},"timestamp":"2025-02-26T13:14:48.316Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:14:48.325Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-02-26T13:14:48.327Z"}
+{"activeCourses":3,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:48.345Z","totalCourses":3,"totalStudents":1}
+{"level":"info","message":{"duration":"13ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:14:48.346Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:49.249Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:49.251Z"}
+{"activeCourses":3,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:49.260Z","totalCourses":3,"totalStudents":1}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:14:49.262Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:49.669Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:49.671Z"}
+{"activeCourses":3,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:49.680Z","totalCourses":3,"totalStudents":1}
+{"level":"info","message":{"duration":"13ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:14:49.681Z"}
+{"level":"info","message":"Retrieved 1 students successfully","timestamp":"2025-02-26T13:14:51.297Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:14:51.299Z"}
+{"activeCourses":3,"activeStudents":1,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:14:51.309Z","totalCourses":3,"totalStudents":1}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:14:51.311Z"}
+{"course":"67bf13c85a2663330e3dea88","level":"info","message":"New student created:","name":"Ayush","studentId":"67bf13d85a2663330e3deaa6","timestamp":"2025-02-26T13:15:04.415Z"}
+{"level":"info","message":{"body":{"course":"67bf13c85a2663330e3dea88","email":"ayush@gmail.com","enrollmentDate":"2025-02-02","name":"Ayush","status":"active"},"duration":"4ms","method":"POST","params":{},"path":"/api/students","query":{},"status":201},"timestamp":"2025-02-26T13:15:04.416Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:04.423Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-02-26T13:15:04.425Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:04.441Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"12ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:15:04.443Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:06.628Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:06.630Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:06.642Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:15:06.644Z"}
+{"level":"info","message":"Student search initiated:","searchTerm":"ayus","timestamp":"2025-02-26T13:15:09.186Z"}
+{"level":"info","message":"Student search completed:","resultsCount":1,"searchTerm":"ayus","timestamp":"2025-02-26T13:15:09.232Z"}
+{"level":"info","message":{"duration":"47ms","method":"GET","params":{},"path":"/api/students/search","query":{"q":"ayus"},"status":200},"timestamp":"2025-02-26T13:15:09.233Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:10.847Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:10.848Z"}
+{"level":"info","message":"Student search initiated:","searchTerm":"naresh","timestamp":"2025-02-26T13:15:12.604Z"}
+{"level":"info","message":"Student search completed:","resultsCount":1,"searchTerm":"naresh","timestamp":"2025-02-26T13:15:12.607Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students/search","query":{"q":"naresh"},"status":200},"timestamp":"2025-02-26T13:15:12.608Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:14.852Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:14.854Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:20.787Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:20.788Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:20.796Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:15:20.798Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:15:21.287Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:15:21.288Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:23.235Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:23.237Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:23.250Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:15:23.252Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:15:23.489Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:15:23.490Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:25.895Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:25.897Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:25.908Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:15:25.909Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:26.266Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:26.268Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf13c85a2663330e3dea88","count":1},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:26.279Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"16ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:15:26.281Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:15:27.421Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:15:27.423Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:15:30.547Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:15:30.549Z"}
+{"level":"info","message":"Retrieved 2 students successfully","timestamp":"2025-02-26T13:15:37.832Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:15:37.834Z"}
+{"activeCourses":3,"activeStudents":2,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:15:37.846Z","totalCourses":3,"totalStudents":2}
+{"level":"info","message":{"duration":"16ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:15:37.847Z"}
+{"course":"67bf13c85a2663330e3dea88","level":"info","message":"New student created:","name":"Rohan","studentId":"67bf14205a2663330e3deae1","timestamp":"2025-02-26T13:16:16.808Z"}
+{"level":"info","message":{"body":{"course":"67bf13c85a2663330e3dea88","email":"rohan@gmail.com","enrollmentDate":"2025-02-18","name":"Rohan","status":"active"},"duration":"5ms","method":"POST","params":{},"path":"/api/students","query":{},"status":201},"timestamp":"2025-02-26T13:16:16.810Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:16.817Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-02-26T13:16:16.819Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:16.836Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"14ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:16:16.838Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:19.322Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:19.324Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:19.334Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"16ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:16:19.335Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:20.166Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:20.168Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:21.122Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:21.124Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:22.029Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:22.031Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:22.329Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:22.330Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:22.341Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:16:22.342Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:22.644Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:22.645Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:22.659Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:16:22.660Z"}
+{"level":"info","message":"Student search initiated:","searchTerm":"roha","timestamp":"2025-02-26T13:16:25.223Z"}
+{"level":"info","message":"Student search completed:","resultsCount":1,"searchTerm":"roha","timestamp":"2025-02-26T13:16:25.227Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/students/search","query":{"q":"roha"},"status":200},"timestamp":"2025-02-26T13:16:25.229Z"}
+{"level":"info","message":"Student search initiated:","searchTerm":"r","timestamp":"2025-02-26T13:16:26.351Z"}
+{"level":"info","message":"Student search completed:","resultsCount":2,"searchTerm":"r","timestamp":"2025-02-26T13:16:26.355Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/students/search","query":{"q":"r"},"status":200},"timestamp":"2025-02-26T13:16:26.357Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:26.727Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:26.729Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:55.271Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.273Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:55.281Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.283Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf13c85a2663330e3dea88","count":2},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:55.296Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:16:55.297Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:55.451Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.453Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:55.460Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.462Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:55.476Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"18ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:16:55.477Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:55.617Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.618Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:55.625Z"}
+{"level":"info","message":{"duration":"3ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.626Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf13c85a2663330e3dea88","count":2},{"_id":"67bf12b9815786b4ff50d9ed","count":1}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:55.639Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"16ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:16:55.640Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:55.883Z"}
+{"level":"info","message":{"duration":"7ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.887Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:55.911Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:55.912Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:55.925Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"17ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-02-26T13:16:55.927Z"}
+{"level":"info","message":"Retrieved 3 courses successfully","timestamp":"2025-02-26T13:16:56.043Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-02-26T13:16:56.045Z"}
+{"level":"info","message":"Retrieved 3 students successfully","timestamp":"2025-02-26T13:16:56.053Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":304},"timestamp":"2025-02-26T13:16:56.055Z"}
+{"activeCourses":3,"activeStudents":3,"courseCounts":[{"_id":"67bf12b9815786b4ff50d9ed","count":1},{"_id":"67bf13c85a2663330e3dea88","count":2}],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-02-26T13:16:56.064Z","totalCourses":3,"totalStudents":3}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-02-26T13:16:56.066Z"}
