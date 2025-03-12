@@ -143,6 +143,10 @@ const courseSchema = new mongoose.Schema(
 
 const Course  = mongoose.model("Course", courseSchema);
 
+app.get('/', (res, req) => {
+  res.json("Hello");
+});
+
 //Course Routes
 
 app.get('/api/courses', async (req, res) =>{
