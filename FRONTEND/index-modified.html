@@ -1591,31 +1591,10 @@
 
       // Modal Operations
       function openModal() {
-        if (courses.length === 0) {
-          showNotification(
-            "Please add at least one course before adding students",
-            "warning"
-          );
-          navigateToSection("courses");
-          openCourseModal();
-          return;
-        }
-
-        studentModal.style.display = "flex";
-        editingId = null;
-        studentForm.reset();
-        document.getElementById("modalTitle").textContent = "Add New Student";
-      }
-
-      function closeModal() {
-        studentModal.style.display = "none";
-        editingId = null;
-        studentForm.reset();
-      }
-
-      function openModal() {
     const studentModal = document.getElementById("studentModal");
     if (!studentModal) return;
+
+    console.log("Opening Add Student modal..."); // Debugging log
 
     if (courses.length === 0) {
         showNotification("Please add at least one course before adding students", "warning");
@@ -1624,10 +1603,10 @@
         return;
     }
 
-    studentModal.style.display = "flex"; // Ensure it's visible
+    studentModal.style.display = "flex"; // Ensure modal is visible
     setTimeout(() => {
         studentModal.classList.add("show-modal");
-    }, 10);  // Small delay for smooth transition
+    }, 10); // Small delay to ensure transition effect
 
     editingId = null;
     studentForm.reset();
@@ -1639,10 +1618,42 @@ function closeModal() {
     const studentModal = document.getElementById("studentModal");
     if (!studentModal) return;
 
+    console.log("Closing Add Student modal..."); // Debugging log
+
     studentModal.classList.remove("show-modal");
     setTimeout(() => {
         studentModal.style.display = "none";
-    }, 300);  // Allow transition before hiding
+    }, 300); // Allow transition before hiding
+}
+
+
+      function openCourseModal() {
+    const courseModal = document.getElementById("courseModal");
+    if (!courseModal) return;
+
+    console.log("Opening Add Course modal..."); // Debugging log
+
+    courseModal.style.display = "flex"; // Ensure modal is visible
+    setTimeout(() => {
+        courseModal.classList.add("show-modal");
+    }, 10); // Small delay to ensure transition effect
+
+    editingCourseId = null;
+    courseForm.reset();
+    document.getElementById("courseModalTitle").textContent = "Add New Course";
+}
+
+
+function closeCourseModal() {
+    const courseModal = document.getElementById("courseModal");
+    if (!courseModal) return;
+
+    console.log("Closing Add Course modal..."); // Debugging log
+
+    courseModal.classList.remove("show-modal");
+    setTimeout(() => {
+        courseModal.style.display = "none";
+    }, 300); // Allow transition before hiding
 }
 
 
