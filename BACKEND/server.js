@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb+srv://root:12345@cluster-1.ls7w9lk.mongodb.net/student-management-app",
+    process.env.MONGODB_URI || "mongodb+srv://root:12345@cluster-1.tyishqb.mongodb.net/studentmanagement?retryWrites=true&w=majority&appName=Cluster-1",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
