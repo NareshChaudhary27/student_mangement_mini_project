@@ -1347,3 +1347,23 @@
 {"level":"info","message":{"duration":"29ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-04-09T19:03:05.587Z"}
 {"level":"info","message":"Retrieved 0 courses successfully","timestamp":"2025-04-09T19:03:05.595Z"}
 {"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-04-09T19:03:05.596Z"}
+{"level":"info","message":"Retrieved 0 courses successfully","timestamp":"2025-04-09T19:23:36.219Z"}
+{"level":"info","message":{"duration":"15ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-04-09T19:23:36.226Z"}
+{"level":"info","message":"Retrieved 0 courses successfully","timestamp":"2025-04-09T19:23:36.277Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-04-09T19:23:36.278Z"}
+{"level":"info","message":"Retrieved 0 courses successfully","timestamp":"2025-04-09T19:27:29.986Z"}
+{"level":"info","message":{"duration":"14ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-04-09T19:27:29.993Z"}
+{"level":"info","message":"Retrieved 0 courses successfully","timestamp":"2025-04-09T19:27:30.003Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-04-09T19:27:30.005Z"}
+{"courseId":"67f6ca29a1792846dedc30e3","level":"info","message":"New course created:","name":"CSE","timestamp":"2025-04-09T19:27:37.251Z"}
+{"level":"info","message":{"body":{"description":"asa","duration":12,"name":"CSE","status":"active"},"duration":"19ms","method":"POST","params":{},"path":"/api/courses","query":{},"status":201},"timestamp":"2025-04-09T19:27:37.254Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-04-09T19:27:37.260Z"}
+{"level":"info","message":{"duration":"4ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":200},"timestamp":"2025-04-09T19:27:37.262Z"}
+{"activeCourses":1,"activeStudents":0,"courseCounts":[],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-04-09T19:27:37.288Z","totalCourses":1,"totalStudents":0}
+{"level":"info","message":{"duration":"24ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":200},"timestamp":"2025-04-09T19:27:37.290Z"}
+{"level":"info","message":"Retrieved 1 courses successfully","timestamp":"2025-04-09T19:28:42.627Z"}
+{"level":"info","message":{"duration":"6ms","method":"GET","params":{},"path":"/api/courses","query":{},"status":304},"timestamp":"2025-04-09T19:28:42.629Z"}
+{"level":"info","message":"Retrieved 0 students successfully","timestamp":"2025-04-09T19:28:42.636Z"}
+{"level":"info","message":{"duration":"5ms","method":"GET","params":{},"path":"/api/students","query":{},"status":200},"timestamp":"2025-04-09T19:28:42.637Z"}
+{"activeCourses":1,"activeStudents":0,"courseCounts":[],"graduates":0,"level":"info","message":"Dashboard statistics retrieved successfully:","successRate":0,"timestamp":"2025-04-09T19:28:42.650Z","totalCourses":1,"totalStudents":0}
+{"level":"info","message":{"duration":"14ms","method":"GET","params":{},"path":"/api/dashboard/stats","query":{},"status":304},"timestamp":"2025-04-09T19:28:42.652Z"}

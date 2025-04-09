@@ -7,17 +7,13 @@ const winston = require("winston");
 
 const app = express();
 
-app.use(cors({
-  origin: ["student-mangement-mini-project.vercel.app/, localhost:3000"],
-  methods: ["POST","GET","DELETE"],
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb+srv://root:12345@cluster-1.ls7w9lk.mongodb.net/student-management-app",
+    process.env.MONGODB_URI || "mongodb://localhost:27017/student-management-app",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
