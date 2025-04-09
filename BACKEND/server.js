@@ -8,7 +8,7 @@ const winston = require("winston");
 const app = express();
 
 app.use(cors({
-  origin: ["student-mangement-mini-project.vercel.app"],
+  origin: ["student-mangement-mini-project.vercel.app, localhost:3000"],
   methods: ["POST","GET","DELETE"],
   credentials: true
 }));
