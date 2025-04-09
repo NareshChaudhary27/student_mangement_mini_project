@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb://localhost:27017/student-management-app",
+    process.env.MONGODB_URI || "mongodb+srv://root:12345@cluster-1.ls7w9lk.mongodb.net/student-management-app",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -143,9 +143,9 @@ const courseSchema = new mongoose.Schema(
 
 const Course  = mongoose.model("Course", courseSchema);
 
-app.get('/', (res, req) => {
-  res.json("Hello");
-});
+// app.use('/', (res, req) => {
+//   res.send("Hello");
+// });
 
 //Course Routes
 
