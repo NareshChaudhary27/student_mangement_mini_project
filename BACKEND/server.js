@@ -7,7 +7,11 @@ const winston = require("winston");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: ["http://localhost:3000", ""],
+  methods: ["POST","GET","DELETE","PUT"],
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.static("public"));
 
@@ -142,6 +146,10 @@ const Course  = mongoose.model("Course", courseSchema);
 // app.use('/', (res, req) => {
 //   res.send("Hello");
 // });
+
+app.get("/", (req, res) => {
+  res.json("Welcome to the Student Management API!");
+});
 
 //Course Routes
 
