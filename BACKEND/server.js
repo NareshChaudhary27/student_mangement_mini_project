@@ -7,22 +7,15 @@ const winston = require("winston");
 
 const app = express();
 
-app.use(cors({
-  origin: (origin, callback) => {
-    const allowedOrigins = [
-      "http://localhost:3000",
-      "https://student-mangement-mini-project.vercel.app/",
-    ];
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  methods: ["POST","GET","DELETE","PUT"],
-  credentials: true
-}));
-app.options('*', cors());
+const corsOptions = {
+  origin: "https://student-mangement-mini-project.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions)); // important: handle preflight
 app.use(express.json());
 app.use(express.static("public"));
 
