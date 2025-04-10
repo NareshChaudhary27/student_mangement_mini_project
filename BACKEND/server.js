@@ -8,10 +8,11 @@ const winston = require("winston");
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://student-mangement-mini-project.vercel.app"],
+  origin: ["*"],
   methods: ["POST","GET","DELETE","PUT"],
   credentials: true
 }));
+app.options('*', cors());
 app.use(express.json());
 app.use(express.static("public"));
 
