@@ -11,7 +11,7 @@ app.use(cors({
   origin: (origin, callback) => {
     const allowedOrigins = [
       "http://localhost:3000",
-      "https://student-mangement-mini-project.vercel.app"
+      "https://student-mangement-mini-project.vercel.app/",
     ];
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
