@@ -8,7 +8,7 @@ const winston = require("winston");
 const app = express();
 
 const corsOptions = {
-  origin: "https://student-mangement-mini-project.vercel.app",
+  origin: "https://student-mangement-mini-project-frontend.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
