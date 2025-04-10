@@ -8,7 +8,17 @@ const winston = require("winston");
 const app = express();
 
 app.use(cors({
-  origin: ["*"],
+  origin: (origin, callback) => {
+    const allowedOrigins = [
+      "http://localhost:3000",
+      "https://student-mangement-mini-project.vercel.app"
+    ];
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   methods: ["POST","GET","DELETE","PUT"],
   credentials: true
 }));
